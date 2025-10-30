@@ -59,10 +59,6 @@ function App() {
           )}
         </main>
 
-        {/* Footer */}
-        <footer className="app-footer">
-          <p>© 2024 Program Analisis & Diskon Nama</p>
-        </footer>
       </div>
     </div>
   );
