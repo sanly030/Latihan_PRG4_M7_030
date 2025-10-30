@@ -340,14 +340,6 @@ const ProgramDiskonBerdasarkanPanjangNama2 = () => {
         fontSize: '0.9rem',
         color: '#1565c0'
       }}>
-        <h4 style={{
-          margin: '0 0 0.5rem 0',
-          color: '#0d47a1',
-          fontWeight: '600'
-        }}>
-          Ketentuan Diskon:
-        </h4>
-
       </div>
     </div>
   );
