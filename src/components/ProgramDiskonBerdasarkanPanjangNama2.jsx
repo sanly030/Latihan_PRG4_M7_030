@@ -330,17 +330,6 @@ const ProgramDiskonBerdasarkanPanjangNama2 = () => {
           )}
         </div>
       )}
-
-      <div style={{
-        marginTop: '2rem',
-        padding: '1rem',
-        backgroundColor: '#e3f2fd',
-        border: '1px solid #bbdefb',
-        borderRadius: '6px',
-        fontSize: '0.9rem',
-        color: '#1565c0'
-      }}>
-      </div>
     </div>
   );
 };
