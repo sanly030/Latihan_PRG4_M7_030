@@ -347,13 +347,7 @@ const ProgramDiskonBerdasarkanPanjangNama2 = () => {
         }}>
           Ketentuan Diskon:
         </h4>
-        <ul style={{ margin: 0, paddingLeft: '1.2rem' }}>
-          <li style={{ margin: '0.25rem 0', lineHeight: '1.4' }}>Setiap huruf vokal (a, i, u, e, o) memberikan diskon 1% per karakter</li>
-          <li style={{ margin: '0.25rem 0', lineHeight: '1.4' }}>Spasi tidak dihitung sebagai tambahan diskon</li>
-          <li style={{ margin: '0.25rem 0', lineHeight: '1.4' }}>Diskon maksimal 10% (meskipun huruf vokal lebih dari 10)</li>
-          <li style={{ margin: '0.25rem 0', lineHeight: '1.4' }}>Contoh: "Budi" = 2 vokal (u, i) = 2% diskon</li>
-          <li style={{ margin: '0.25rem 0', lineHeight: '1.4' }}>Contoh: "Budi Jan" = 3 vokal (u, i, a) = 3% diskon</li>
-        </ul>
+
       </div>
     </div>
   );

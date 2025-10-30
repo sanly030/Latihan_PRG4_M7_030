@@ -57,7 +57,6 @@ const ProgramDiskonPanjangNama = () => {
     }).format(amount);
   };
 
-  // Calculate savings percentage
   const calculateSavings = () => {
     if (!results) return 0;
     return ((results.originalPrice - results.finalPrice) / results.originalPrice * 100).toFixed(1);
