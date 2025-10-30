@@ -89,6 +89,7 @@ const ProgramDiskonBerdasarkanPanjangNama2 = () => {
       padding: '2rem',
       fontFamily: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif'
     }}>
+      <h1 style={color='#050606ff'}>Program Analisis & Diskon Nama</h1>
       <div style={{
         textAlign: 'center',
         marginBottom: '2rem',
