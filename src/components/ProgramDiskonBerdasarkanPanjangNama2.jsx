@@ -1,10 +1,17 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const ProgramDiskonBerdasarkanPanjangNama2 = () => {
   const [totalPrice, setTotalPrice] = useState('');
   const [customerName, setCustomerName] = useState('');
   const [results, setResults] = useState(null);
   const [error, setError] = useState('');
+
+   useEffect(() => {
+    document.body.style.backgroundColor = '#ffffff';
+    return () => {
+      document.body.style.backgroundColor = '';
+    };
+   }, []);
 
   // Fungsi untuk menghitung jumlah huruf vokal
   const countVowels = (name) => {
